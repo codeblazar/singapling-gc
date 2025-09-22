@@ -185,7 +185,7 @@ class ChatManager {
             this.showTypingIndicator();
 
             // Send to n8n webhook
-            const response = await fetch('https://n8n.codeblazar.org/webhook/03e221f1-3171-4cf9-8dde-097a2af6a969', {
+            const response = await fetch('https://n8ngc.codeblazar.org/webhook/03e221f1-3171-4cf9-8dde-097a2af6a969', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

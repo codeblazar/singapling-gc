@@ -2,7 +2,7 @@
 // This version handles different response formats and adds better error handling
 
 async function query(data) {
-  const N8N_WEBHOOK_URL = 'YOUR_WEBHOOK_URL_HERE'; // Replace with your actual webhook URL
+  const N8N_WEBHOOK_URL = 'https://n8ngc.codeblazar.org/webhook/03e221f1-3171-4cf9-8dde-097a2af6a969'; // Google Cloud n8n webhook URL
   
   try {
     const response = await fetch(N8N_WEBHOOK_URL, {

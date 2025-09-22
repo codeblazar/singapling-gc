@@ -68,7 +68,7 @@ def main():
     print("=" * 40)
     
     # Configuration
-    base_url = "https://n8n.codeblazar.org/webhook"
+    base_url = "https://n8ngc.codeblazar.org/webhook"
     chatbot_url = f"{base_url}/chatbot"
     customer_service_url = f"{base_url}/customer-service"
     

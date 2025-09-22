@@ -1,20 +1,21 @@
 # Singapling n8n Configuration
 
 ## Server Configuration
-- **n8n Server**: https://n8n.codeblazar.org
+- **n8n Server**: https://n8ngc.codeblazar.org
 - **Workflow ID**: 5c4KFf80rrjMJ0Ep
 - **Environment**: Production
+- **Platform**: Google Cloud
 
 ## Webhook Endpoints
 
 ### Chatbot Webhook
-- **URL**: `https://n8n.codeblazar.org/webhook/chatbot`
+- **URL**: `https://n8ngc.codeblazar.org/webhook/chatbot`
 - **Method**: POST
 - **Content-Type**: application/json
 - **Payload**: `{"question": "user question here"}`
 
 ### Customer Service Webhook
-- **URL**: `https://n8n.codeblazar.org/webhook/customer-service`
+- **URL**: `https://n8ngc.codeblazar.org/webhook/customer-service`
 - **Method**: POST
 - **Content-Type**: application/json
 - **Payload**: 
@@ -30,7 +31,7 @@
 ```
 
 ### Data Processing Webhook
-- **URL**: `https://n8n.codeblazar.org/webhook/data-sync`
+- **URL**: `https://n8ngc.codeblazar.org/webhook/data-sync`
 - **Method**: POST
 - **Content-Type**: application/json
 
@@ -47,7 +48,7 @@ python test_n8n_integration.py
 
 ## Workflow Import URLs
 If you need to re-import or modify workflows:
-1. Open https://n8n.codeblazar.org
+1. Open https://n8ngc.codeblazar.org
 2. Import the JSON files from `n8n-workflows/` directory
 3. Configure webhook paths to match the URLs above
 
